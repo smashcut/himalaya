@@ -81,6 +81,9 @@
     "type": "git",
     "url": "https://github.com/andrejewski/himalaya.git"
   },
+  "resolutions": {
+    "graceful-fs": "^4.2.9"
+  },
   "scripts": {
     "build": "gulp build",
     "coveralls": "npm run report && nyc report --reporter=text-lcov | coveralls",
